@@ -9,4 +9,53 @@ body {
     color: #eb4b5e;
     font-family: Candara, Helvetica, sans-serif;
     margin: 0;
+    padding: 10px 50px 50px 50px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+header h1 {
+    font-size: 5rem;
+    user-select: none;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#logoImg {
+    padding-right: 10px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.menu {
+    background-color: #eb4b5e;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.menu a {
+    padding: 14px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: #eb4b5e;
+}
+
+.coluna-esquerda {
+
+}
+
+.coluna-direita {
+    
 }
