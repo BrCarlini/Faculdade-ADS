@@ -116,3 +116,54 @@ header h1 {
 .sobreTexto a {
     color: #eb4b5e;
 }
+
+.promo {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1.1vw;
+    padding: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.promo:hover {
+    box-shadow:0 0 20px #888888;
+}
+
+.promo img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social img {
+    margin: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.social img:hover {
+    opacity: 0.5;
+}
+
+.produto img {
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #eb4b5e;
+}
+
+.produto {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); /* Ou usar 200px 200px 200px 200px*/
+}
