@@ -157,13 +157,38 @@ header h1 {
     height: 150px;
     border-radius: 50%;
     border: 2px solid #eb4b5e;
+    margin-top: 5px;
 }
 
 .produto {
     text-align: center;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+    font-size: 20px;
+}
+
+.produto p {
+    margin: 0;
+}
+
+.tituloProduto {
+    font-weight: bold;
+}
+
+.produto:hover {
+    box-shadow: 5px 19px 15px #888888;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); /* Ou usar 200px 200px 200px 200px*/
+}
+
+.miniGrid {
+    height: 266px;
+    overflow: hidden;
+    padding: 15px;
 }
