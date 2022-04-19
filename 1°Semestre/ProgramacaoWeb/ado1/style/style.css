@@ -185,10 +185,19 @@ header h1 {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); /* Ou usar 200px 200px 200px 200px*/
+    grid-gap: 16px;
 }
 
 .miniGrid {
-    height: 266px;
+    height: 270px;
     overflow: hidden;
     padding: 15px;
+}
+
+#entrega {
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    height: 100px;
+    width: 300px;
 }
