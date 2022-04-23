@@ -235,11 +235,13 @@ footer {
 .forma-pagamento {
     width: 100%;
     margin: auto;
+    padding-left: 50px;
 }
 
 .social {
     width: 100%;
     margin: auto;
+    padding-left: 50px;
 }
 
 .info-hr-loc {
@@ -265,12 +267,12 @@ footer {
 
 hr {
     margin: 0;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .hr-1 {
     border: 1px solid rgba(168, 164, 164, 0.486);
-    margin: 0 645px 0 645px;
+    margin: 0 560px 0 560px;
 }
 
 #posicao-hr {
