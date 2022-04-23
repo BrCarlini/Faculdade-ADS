@@ -22,13 +22,13 @@
             <a href="">Início</a>
             <a href="">Sobre Nós</a>
             <a href="">Produtos</a>
-            <a href="">Contato</a>
+            <a href="#contato">Contato</a>
         </div>
     </header>
 
     <main>
-        <div>
-            <a href="">
+        <div class="banners-respon">
+            <a href="#promocoesDiarias">
                 <div class="coluna-esquerda">
                     <div id="banner-esquerda">
                         <h1 class="titulo">Promocões Diárias</h1>
@@ -37,8 +37,8 @@
             </a>
         </div>
 
-        <div>
-            <a href="">
+        <div class="banners-respon">
+            <a href="#doces">
                 <div class="coluna-direita">
                     <div id="banner-direita">
                         <h1 class="titulo">Doces</h1>
@@ -72,7 +72,7 @@
                     <p class="tituloProduto">04 - Brócolis c/ Bacon</p>
                     <img src="images/brocolis.jpg">
                     <p class="precoProduto">R$: 39,90</p>
-                    <p class="descriProduto">Brócolis, alho, bacon, mussarela e azeitonas</p>
+                    <p class="descriProduto">Brócolis, alho, bacon, mussarela</p>
                 </div>
                 <div class="produto">
                     <p class="tituloProduto">05 - Canadense</p>
@@ -84,7 +84,7 @@
                     <p class="tituloProduto">06 - Carne Seca</p>
                     <img src="images/carneSeca.jpg">
                     <p class="precoProduto">R$: 39,90</p>
-                    <p class="descriProduto">Carne Seca, bacon, tomate e azeitonas</p>
+                    <p class="descriProduto">Carne Seca, bacon, tomate</p>
                 </div>
                 <div class="produto">
                     <p class="tituloProduto">07 - Champignon</p>
@@ -108,13 +108,13 @@
                     <p class="tituloProduto">10 - Palmito</p>
                     <img src="images/palmito.jpeg">
                     <p class="precoProduto">R$: 35,90</p>
-                    <p class="descriProduto">Palmito, mussarela e azeitonas</p>
+                    <p class="descriProduto">Palmito, mussarela</p>
                 </div>
                 <div class="produto">
                     <p class="tituloProduto">11 - Siciliana</p>
                     <img src="images/siciliana.jpg">
                     <p class="precoProduto">R$: 39,90</p>
-                    <p class="descriProduto">Champignon, mussarela, bacon e azeitonas</p>
+                    <p class="descriProduto">Champignon, mussarela, bacon</p>
                 </div>
                 <div class="produto">
                     <p class="tituloProduto">12 - Tomate Seco</p>
@@ -125,6 +125,7 @@
             </div>
         </div>
 
+        <a name="promocoesDiarias"></a>
         <h1 class="titulo-cardapio-promo">Promoções</h1>
         <p class="preco-cardapio-promo"><strong>Por: R$24,90</strong> *Promoção válida de Domingo a Quinta-feira</p>
         <div class="card">
@@ -133,7 +134,7 @@
                     <p class="tituloProduto">01 - Baiana</p>
                     <img src="images/imgPromo/baiana.jpg">
                     <p class="precoProduto"></p>
-                    <p class="descriProduto">Calabresa moída, ovos, cebola, pimenta e azeitonas</p>
+                    <p class="descriProduto">Calabresa moída, ovos, cebola, pimenta</p>
                 </div>
                 <div class="produto">
                     <p class="tituloProduto">02 - Bauru</p>
@@ -157,13 +158,13 @@
                     <p class="tituloProduto">05 - Milho Verde</p>
                     <img src="images/imgPromo/milhoVerde.jpg">
                     <p class="precoProduto"></p>
-                    <p class="descriProduto">Milho Verde, mussarela, azeitonas</p>
+                    <p class="descriProduto">Milho Verde, mussarela</p>
                 </div>
                 <div class="produto">
                     <p class="tituloProduto">06 - Mussarela</p>
                     <img src="images/imgPromo/mussarela.jpg">
                     <p class="precoProduto"></p>
-                    <p class="descriProduto">Mussarela, rodelas de tomate, azeitonas</p>
+                    <p class="descriProduto">Mussarela, rodelas de tomate</p>
                 </div>
                 <div class="produto">
                     <p class="tituloProduto">07 - Portuguesa Simples</p>
@@ -174,7 +175,7 @@
             </div>
         </div>
 
-
+        <a name="doces"></a>
         <h1 class="titulo-cardapio-promo">Doces</h1>
         <div class="card">
             <div class="grid">
@@ -216,8 +217,20 @@
                 </div>
             </div>
         </div>
-        
+
     </main>
+
+    <div id="entrega">
+        <a href="tel:1111111111"> <!--
+            para enviar no e-mail = <a href="mailto:email@gmail.com"> 
+            -->
+            <img src="images/icones/telefone.png">
+            <div id="tel">
+                <p>(11)94599-4280</p>
+                <p>Entregamos na sua casa!</p>
+            </div>
+        </a>
+    </div>
 
     <footer>
         <div id="rodape">
@@ -226,6 +239,7 @@
                 <p>Whatsapp: (11)94599-4280 - Faça seu pedido pelo</p>
                 <p>Telefone: 5631-4509 / 5631-5046 / 5632-1421</p>
                 <p>e-mail: exemplo@dominio.com</p>
+                <a name="contato"></a>
 
             </div>
 
@@ -257,16 +271,17 @@
 
         </div>
 
-        <div id="posicao-hr">
-            <hr class="hr-1">
-            <p class="hr-rodape">Política de Privacidade - Termos de uso - Imagens meramente ilustrativas</p>
-            <hr class="hr-1">
-        </div>
-
-        <div id="posicao-hr-segundo">
-            <hr>
-            <p class="hr-rodape">Copyright © @2022 – CNPJ :00.000.000/0000-00 SÃO PAULO/SP. Todos os direitos reservados.</p>
-            <hr>
+        <div class="info">
+            <div id="posicao-hr">
+                <hr class="hr-1">
+                <p class="hr-rodape">Política de Privacidade - Termos de uso - Imagens meramente ilustrativas</p>
+                <hr class="hr-1">
+            </div>
+            <div id="posicao-hr-segundo">
+                <hr>
+                <p class="hr-rodape">Copyright © @2022 – CNPJ :00.000.000/0000-00 SÃO PAULO/SP. Todos os direitos reservados.</p>
+                <hr>
+            </div>
         </div>
     </footer>
 </body>

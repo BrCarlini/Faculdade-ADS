@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1 {
+h1{
     margin: 0;
 }
 
@@ -27,7 +27,7 @@ header h1 {
 #logo {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding-top: 30px;
 }
 
 #logoImg {
@@ -83,7 +83,7 @@ header h1 {
 }
 
 .coluna-esquerda:hover {
-    box-shadow: 5px 19px 15px #88888844;
+    box-shadow: 5px 19px 15px #8888882c;
 }
 
 
@@ -115,7 +115,7 @@ header h1 {
 }
 
 .coluna-direita:hover {
-    box-shadow: 5px 19px 15px #88888844;
+    box-shadow: 5px 19px 15px #8888882c;
 }
 
 
@@ -138,6 +138,44 @@ header h1 {
     width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); /* Ou usar 200px 200px 200px 200px*/
     grid-gap: 16px;
+}
+
+
+
+#entrega {
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    height: 100px;
+    width: 300px;
+}
+
+#entrega img {
+    position: absolute;
+    right: 10px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+#tel {
+    position: absolute;
+    height: 70px;
+    background-color: #cf4b4f;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    left: -10px;
+    border-radius: 16px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#entrega img:hover + #tel {
+    opacity: 1;
+}
+
+#tel p {
+    margin: 0;
 }
 
 
@@ -202,10 +240,6 @@ header h1 {
 strong {
     font-size: 2vw;
 }
-
-
-
-
 
 
 /*Configuração do Footer*/
@@ -282,4 +316,43 @@ hr {
 #posicao-hr-segundo {
     background-color: black;
     color: rgba(240, 248, 255, 0.699);
+}
+
+
+
+/*Configuração de resposividade*/
+
+@media screen and (max-width: 1225px){
+
+    .banners-respon{
+        display: none;
+    }
+
+    .titulo-cardapio-geral {
+        padding-top: 50px;
+    }
+
+    .descriProduto {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 898px){
+
+    header h1{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 823px){
+
+    #logoImg {
+        display: none;
+    }
+
+    
+
+    #rodape {
+        display: block;
+    }
 }
