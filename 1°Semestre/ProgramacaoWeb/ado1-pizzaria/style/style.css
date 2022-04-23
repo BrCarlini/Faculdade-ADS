@@ -126,8 +126,7 @@ header h1 {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 1px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 1px 2px rgba(0, 0, 0, 0.2);
-    border: 1px solid blue;
+    /*box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 1px 2px rgba(0, 0, 0, 0.2);*/
     width: 55%;
     margin: auto;
     justify-items: center;
@@ -246,7 +245,6 @@ strong {
 
 footer {
     background-color: #5e3c1e98;
-    border: 1px solid red;
     height: 527px;
 }
 
@@ -322,6 +320,13 @@ hr {
 
 /*Configuração de resposividade*/
 
+@media screen and (min-width: 2507px){
+
+    .descriProduto {
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-width: 1225px){
 
     .banners-respon{
@@ -350,9 +355,93 @@ hr {
         display: none;
     }
 
-    
+    .preco-cardapio-promo {
+        font-size: 12px;
+    }
 
     #rodape {
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr; /*repeat(auto-fit, minmax(50px, 1fr))*/
     }
+
+    #rodape p{
+        font-size: 2vw;
+    }
+
+
+    .info {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .menu {
+        display: block;
+        text-align: center;
+    }
+
+    .titulo-cardapio-geral {
+        font-size: 2rem;
+    }
+
+    .titulo-cardapio-promo {
+        font-size: 2rem;
+    }
+
+    .descriProduto {
+        font-size: 1rem;
+    }
+
+    .preco-cardapio-promo {
+        font-size: 1rem;
+    }
+
+    footer {
+        height: 700px;
+    }
+
+    #rodape p {
+        font-size: 3vw;
+    }
+
+    #rodape {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .forma-pagamento {
+        padding-left: 20px;
+    }
+
+    .social {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .info-hr-loc {
+        padding-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 414px){
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+   .preco-cardapio-promo{
+       margin-left: 0;
+   }
+
+   p.preco-cardapio-promo strong {
+       font-size: 1rem;
+
+   }
+
+   .descriProduto {
+       font-size: 1rem;
+   }
+
 }
