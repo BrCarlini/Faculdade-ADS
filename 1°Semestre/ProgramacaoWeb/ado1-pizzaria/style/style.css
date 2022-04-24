@@ -229,6 +229,12 @@ header h1 {
     font-size: 3vw;
 }
 
+.titulo-cardapio-vinhos {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 3vw;
+}
+
 .preco-cardapio-promo {
     text-align: center;
     margin: 0;
@@ -317,6 +323,29 @@ hr {
 }
 
 
+.sobreNos {
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+
+.sobreNos h1 {
+    text-align: center;
+    padding-top: 16px;
+}
+
+.sobreNos p {
+    margin: 0;
+    padding: 30px 40px 30px 40px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+
 
 /*Configuração de resposividade*/
 
@@ -329,7 +358,7 @@ hr {
 
 @media screen and (max-width: 1225px){
 
-    .banners-respon{
+    .banners-respon {
         display: none;
     }
 
@@ -344,7 +373,7 @@ hr {
 
 @media screen and (max-width: 898px){
 
-    header h1{
+    header h1 {
         font-size: 3rem;
     }
 }
@@ -359,12 +388,16 @@ hr {
         font-size: 12px;
     }
 
+    .titulo-cardapio-vinhos {
+        font-size: 12px;
+    }
+
     #rodape {
         display: grid;
         grid-template-columns: 1fr 1fr; /*repeat(auto-fit, minmax(50px, 1fr))*/
     }
 
-    #rodape p{
+    #rodape p {
         font-size: 2vw;
     }
 
@@ -386,6 +419,10 @@ hr {
     }
 
     .titulo-cardapio-promo {
+        font-size: 2rem;
+    }
+
+    .titulo-cardapio-vinhos {
         font-size: 2rem;
     }
 
