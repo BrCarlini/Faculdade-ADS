@@ -65,7 +65,7 @@ header h1 {
 }
 
 #banner-esquerda {
-    background-image: url('../paraEdicao/destaque.jpg');
+    background-image: url('../images/destaque.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     height: 400px;
@@ -97,7 +97,7 @@ header h1 {
 }
 
 #banner-direita {
-    background-image: url('../paraEdicao/sonho.jpg');
+    background-image: url('../images/sonho.jpg');
     background-repeat: no-repeat;
     background-size: 130%;
     height: 400px;
