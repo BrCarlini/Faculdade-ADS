@@ -7,17 +7,19 @@
 int max(int num1, int num2){
     int resultado;
 
-    if (num1 > num2){
+    if(num1 > num2){
         resultado = num1;
-        return resultado;
+        
     }
     else{
         resultado = num2;
     }
+
+    return resultado;
 }
 
 int main(void){
-    int maior = max(111, 2);
+    int maior = max(111, 200);
     printf("O maior eh %d", maior);
 
     return 0;
