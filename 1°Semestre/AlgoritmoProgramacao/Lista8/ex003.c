@@ -4,14 +4,21 @@
 
 #include <stdio.h>
 
-int EhPrimo(num1){
-    int result, i;
+int EhPrimo(int num1){
+    int result, i, cont=0;
 
-    for(i = 2; i <= num1 / 2; i++){
-        if(num1 % 1 == 0);
+    for(int i = 1; i <= num1; i++)
+        if (num1 % i == 0){
+            cont++;
+        }
+    if (cont == 2){
+        return 1;
+    }
+    else{
+        return 0;
     }
     
-    return result;
+        
 }
 
 int main(void){
