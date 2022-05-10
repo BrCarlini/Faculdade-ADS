@@ -7,7 +7,10 @@ anterior com o parâmetro e exibir o valor resultante para o usuário num alert.
 */
 
 function conversorDeString(text){
-    alert(`${text.toUpperCase()} - ${text.toLowerCase()}`)
+    return (`${text.toUpperCase()} - ${text.toLowerCase()}`)
 }
 
-conversorDeString("Hello World")
+function lerDado(){
+    let entradaDados = prompt("Digite algo: ")
+    alert(conversorDeString(entradaDados))
+}
