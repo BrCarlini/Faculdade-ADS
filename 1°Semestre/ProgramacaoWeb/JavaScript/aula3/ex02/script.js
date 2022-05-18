@@ -14,12 +14,4 @@ function clique(){
     h3Elemento.style.marginLeft = "200px"
 
     h3Elemento.innerText = valorCampo1 // Faz ela ser exibida na tela
-
-    if(valorCampo1 != ""){
-        h3Elemento = document.removeChild
-        document.body.appendChild(h3Elemento)
-    }else{
-        
-    }
-
 }
