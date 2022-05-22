@@ -6,15 +6,27 @@
 
 int main()
 {
-    float altura = 0;
+    float altura, maisAlto = 0;
+    int codigoDoMaisAlto = 0;
     int codigo = 0;
 
     for(int i = 1; i <= 5; i++){
-        printf("Informe a ALTURA de 5 atletas: ");
+        
+        printf("Informe a ALTURA de %do atletas: ", i);
         scanf("%f", &altura);
 
-        printf("");
+        printf("Informe o CODIGO do atleta: ");
+        scanf("%d", &codigo);
+        printf("========================================\n");
+
+        if(altura > maisAlto){
+            maisAlto = altura;
+            codigoDoMaisAlto = codigo;
+        }
+
     }
+
+    printf("O codigo do MAIS ALTO eh: %d", codigoDoMaisAlto);
 
     return 0;
 }
