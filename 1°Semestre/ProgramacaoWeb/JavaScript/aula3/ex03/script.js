@@ -5,8 +5,12 @@ imagem na página (a sua escolha)
 
 function clique(){
     let imgElemento = document.createElement('img')
+    let caixaImg = document.querySelector('div#res')
 
-    document.body.appendChild(imgElemento)
-    // NÃO FINALIZADO
+    imgElemento.setAttribute('src', 'dog.jpg')
+    //imgElemento.src = 'dog.jpg'
+    
+    caixaImg.appendChild(imgElemento)
+    //document.body.appendChild(imgElemento)
 
 }
