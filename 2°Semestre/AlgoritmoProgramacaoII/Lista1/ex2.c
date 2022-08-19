@@ -14,9 +14,10 @@ int main(void)
     printf("Informe a altura: ");
     scanf("%lf", &altura);
 
-    volume = 3,1415 * (raio * raio) * altura;
+    double pi = 3.1415;
+    volume = pi * (raio * raio) * altura;
 
-    printf("Volume: %5.2f", volume);
+    printf("Volume: %.2f", volume);
 
     return 0;
 }
