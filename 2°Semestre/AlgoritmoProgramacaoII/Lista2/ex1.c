@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+double c = 0.0;
+double calculo = 0.0;
+
 int main(void)
 {
     /*
@@ -10,12 +13,17 @@ int main(void)
   */
 
 
-
+    
+    
     while(true){
         int menu;
+        
+        
 
-        printf("Menu:\n1 - Ler\n2 - Calcular\n3 - Exibir\n4 - Sair\n>>> ");
+        printf("\nMenu:\n1 - Ler\n2 - Calcular\n3 - Exibir\n4 - Sair\n>>> ");
         scanf("%d", &menu);
+
+        
 
         if(menu == 4){
             printf("Programa encerrado");
@@ -25,32 +33,58 @@ int main(void)
         switch(menu)
         {
         case 1:
-            comprimento();
+            c = comprimento();
             break;
         
         case 2:
-            //calcular();
+            calculo = calcular(c);
             break;
         
         case 3:
-            //exibir();
+            exibir();
             break;
         
         default:
-            //printf("Valor Invalido");
+            printf("Valor Invalido");
             break;
         }
 
     }
-
-    
 }
 
 
-double comprimento(){
-    double compr;
-    printf("Informe o comprimento: ");
+double compr;
+comprimento(void){
+    
+    printf("Informe o Comprimento: ");
     scanf("%lf", &compr);
 
-    return compr;
+    //printf("%lf", compr);
+    return compr;   
+}
+
+double d, r, a;
+calcular(double cp){
+    const double pi = 3.1415;
+
+    d = cp / pi;
+
+    r = d / 2;
+
+    a = pi * (r * r);
+
+
+    //printf("%lf", a);
+    return a;
+}
+
+exibir(){
+    
+    printf("============================\n");
+    printf("Comprimento informado: %.2lf\n", compr);
+    printf("Valor do Diametro: %.2lf\n", d);
+    printf("Valor do Raio: %.2lf\n", r);
+    printf("Resultado (Area): %.2lf", a);
+    printf("\n============================");
+    return;
 }
