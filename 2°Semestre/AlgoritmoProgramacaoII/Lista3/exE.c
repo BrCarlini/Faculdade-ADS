@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <locale.h>
 
+/*
+e) Ler duas matrizes A e B do tipo vetor com 15 elementos cada. Construir uma matriz C,
+sendo esta a junção das duas outras matrizes. 
+Desta forma, C deverá ter o dobro de elementos, ou seja, 30.
+Apresentar a matriz C.
+*/
+
 int main()
 {
     int a[15];
@@ -48,7 +55,3 @@ int main()
 
     return 0;
 }
-/*
-e) Ler duas matrizes A e B do tipo vetor com 15 elementos cada. Construir uma matriz C, sendo esta a junção das duas outras matrizes. Desta forma, C deverá ter o dobro de elementos, ou seja, 30.
-Apresentar a matriz C.
-*/

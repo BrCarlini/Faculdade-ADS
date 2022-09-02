@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <locale.h>
 
+/*
+d) Ler 15 elementos de uma matriz tipo vetor. Construir uma matriz B de mesmo tipo, observando a seguintes lei de formação: “Todo elemento de B deverá ser o quadrado do elemento de A correspondente”. Apresentar as matrizes A e B
+*/
+
 int main()
 {
     int a[15];
@@ -37,7 +41,3 @@ int main()
 
     return 0;
 }
-
-/*
-d) Ler 15 elementos de uma matriz tipo vetor. Construir uma matriz B de mesmo tipo, observando a seguintes lei de formação: “Todo elemento de B deverá ser o quadrado do elemento de A correspondente”. Apresentar as matrizes A e B
-*/
