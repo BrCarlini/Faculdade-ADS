@@ -31,6 +31,3 @@ exibirLista(){
     }
 }
 
-/*
-b) Ler 8 elementos em uma matriz A tipo vetor. Construir uma matriz B de mesma dimensão com oselementos da matriz A multiplicados por 3. O elemento B[i] deverá ser implicado pelo elementoA[i]*3, o elemento B[2] implicado pelo elemento A[2]*3 e assim por diante, até 8. Apresentar o vetorB.
-*/

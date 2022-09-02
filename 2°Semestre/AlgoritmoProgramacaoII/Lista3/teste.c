@@ -1,37 +1,48 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
 
+
 int main()
 {
+
+    int a[] = {1, 2, 3, 4, 5};
+    int b[] = {6, 7, 8, 9, 10};
+    int c[10];
+
+    int test = sizeof(c)/sizeof(c[0]);
+    printf("Tamanho array: %d\n", test);
+    printf("===============================================================\n");
+
+    for(int i = 0; i <= 4; i++){
     
-    triplicarDados();
+        c[i] = a[i];
+    }
+
+    for(int i = 9; i > 4; i--){
     
+        c[i] = b[i-5];
+    }
+
+
+    printf("===============================================================\n");
+    for(int i = 0; i <= 4; i++){
+        printf("Matriz A -> %d\n", a[i]);
+    }
+
+    printf("===============================================================\n");
+
+    for(int i = 0; i <= 4; i++){
+        printf("Matriz B -> %d\n", b[i]);
+    }
+
+    printf("===============================================================\n");
+
+    for(int i = 0; i <= 9; i++){
+        printf("Matriz C -> %d\n", c[i]);
+    }
+
+
     return 0;
-}
-
-/*
-b) Ler 8 elementos em uma matriz A tipo vetor. Construir uma matriz B de mesma dimensão com os elementos da matriz A multiplicados por 3. O elemento B[i] deverá ser implicado pelo elementoA[i]*3, o elemento B[2] implicado pelo elemento A[2]*3 e assim por diante, até 8. Apresentar o vetorB.
-*/
-
-triplicarDados(){
-    int matrizA[8];
-    int matrizB[8];
-    int num;
-
-    for(int i = 0; i <= 7; i++){
-        printf("Informe o %do numero: ", i+1);
-        scanf("%d", &num);
-
-        matrizA[i] = num;
-    }
-    
-
-    for(int i = 0; i <= 7; i++){
-        matrizB[i] = matrizA[i] * 3;
-    }
-
-    for(int i = 0; i <= 7; i++){
-        printf("%d\n", matrizB[i]);
-    }
 }
