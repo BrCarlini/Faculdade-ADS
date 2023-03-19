@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9de3547-5148-414a-9da2-d4cbf54f797b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Alp1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ADO4/Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ADO4/Ex2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alp1/ADO4/Exe1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alp1/ADO4/Exe2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ADO3/teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ADO4/Exe1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ADO4/Exe2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -23,15 +37,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Exe1">
+}</component>
+  <component name="RunManager" selected="Application.Ex2">
+    <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ADO4.Ex1" />
+      <module name="Alp1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ADO4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ADO4.Ex2" />
+      <module name="Alp1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ADO4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ADO2.Exe1" />
       <module name="Alp1" />
@@ -67,6 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex2" />
+        <item itemvalue="Application.Ex1" />
         <item itemvalue="Application.Exe1" />
       </list>
     </recent_temporary>
