@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9de3547-5148-414a-9da2-d4cbf54f797b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ADO4/Ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ADO4/Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ADO5/Ex1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Alp1/ADO4/Exe1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Alp1/ADO4/Exe2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ADO3/teste.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ADO4/Exe1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ADO4/Exe2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +39,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex2">
+  <component name="RunManager" selected="Application.ADO5.Ex1">
+    <configuration name="ADO5.Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ADO5.Ex1" />
+      <module name="Alp1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ADO5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ADO4.Ex1" />
       <module name="Alp1" />
@@ -107,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ADO5.Ex1" />
         <item itemvalue="Application.Ex2" />
         <item itemvalue="Application.Ex1" />
         <item itemvalue="Application.Exe1" />
