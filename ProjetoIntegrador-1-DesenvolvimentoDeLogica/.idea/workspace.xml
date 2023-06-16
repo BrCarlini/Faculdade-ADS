@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9de3547-5148-414a-9da2-d4cbf54f797b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ADO8/Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ADO11/Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ADO14/JogoDaVelha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Alp1/ADO5/Ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Alp1/ADO5/Ex1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ADO8.Ex1">
+  <component name="RunManager" selected="Application.JogoDaVelha">
+    <configuration name="ADO11.Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ADO11.Ex1" />
+      <module name="Alp1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ADO11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ADO5.Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ADO5.Ex1" />
       <module name="Alp1" />
@@ -67,19 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ADO4.Ex1" />
-      <module name="Alp1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ADO4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ADO4.Ex2" />
       <module name="Alp1" />
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ADO2.Exe1" />
+    <configuration name="JogoDaVelha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ADO14.JogoDaVelha" />
       <module name="Alp1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ADO2.*" />
+          <option name="PATTERN" value="ADO14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JogoDaVelha" />
+        <item itemvalue="Application.ADO11.Ex1" />
         <item itemvalue="Application.ADO8.Ex1" />
         <item itemvalue="Application.ADO5.Ex1" />
         <item itemvalue="Application.Ex2" />
-        <item itemvalue="Application.Ex1" />
-        <item itemvalue="Application.Exe1" />
       </list>
     </recent_temporary>
   </component>
